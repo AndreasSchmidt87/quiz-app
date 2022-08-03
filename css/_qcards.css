@@ -1,0 +1,14 @@
+article {
+    display: block;
+    position: relative;
+    box-shadow: 5px;
+    margin: 20px;
+    border: black 2px solid;
+    border-radius: 5px;
+
+}
+.card {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
