@@ -1,0 +1,19 @@
+.icons {
+    margin: 0;
+    width: 45px;
+    height: auto;
+}
+.icon__bookmark--empty {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    right: 15px;
+    top: -15px;
+}
+
+button {
+    width: 70px;
+    height: 25px;
+    background-color: aqua;
+    justify-self: center;
+}

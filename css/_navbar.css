@@ -4,8 +4,3 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
 }
-.icons {
-    margin: 0;
-    width: 45px;
-    height: auto;
-}
