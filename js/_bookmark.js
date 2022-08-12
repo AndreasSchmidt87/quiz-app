@@ -3,7 +3,7 @@ export default function toggleBookmark() {
     cards.forEach((card) => {
         const bookmarkButtons = card.querySelector('[data-js="bookmark"]');
         console.log(bookmarkButtons);
-        if ()
+        
         
 });
 }
