@@ -24,9 +24,10 @@
     --fs-900: 2.125rem;
 }
 body {
-    height: 100vh;
+    height: 100%;
     line-height: 1.5;
     font-size: var(--fs-400);
+
 }
 header {
     display: flex;
@@ -45,6 +46,8 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
   footer { 
     display: grid;
