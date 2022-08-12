@@ -6,57 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/index.js" type="module" defer></script>
 </head>
 <body>
     <header>
         <h1 class="page-title">Quiz App</h1>
     </header>
     <main>
-            <qcard class="card">
+            <article class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <svg width="45px" height="45px" class="icons icon__bookmark--empty" alt="bookmark"><bookmark/></svg>
+                <img class="icons icon__bookmark--empty" src="./assets/Bookmark_empty.png" alt="Bookmark Button">
                 <p>Hier steht eine Frage?</p>
                 <ul>
                     <li><button>html</button></li>
                     <li><button>css</button></li>
                     <li><button>javascript</button></li>
                 </ul>
-                <button data-js="button" >Answer</button>
-                <p class ="hidden" data-js="qcard__answer">answer</p>
+                <button data-js="button">Answer</button>
+                <p class="hidden" data-js="qcard__answer">answer steht hier</p>
 
-            </qcard>
-            <qcard class="card">
+            </article>
+            <qcard class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <svg class="icons icon__bookmark--empty" src="./assets/bookmark-shapes-svgrepo-com.svg" alt="bookmark"></svg>
+                <img class="icons icon__bookmark--empty" src="./assets/Bookmark_empty.png" alt="Bookmark Button">
                 <p>Hier steht eine Frage?</p>
                 <ul>
                     <li><button>html</button></li>
                     <li><button>css</button></li>
                     <li><button>javascript</button></li>
                 </ul>
-                <button>Answer</button>
+                <button data-js="button">Answer</button>
+                <p class ="hidden" data-js="qcard__answer">answer</p>
             </qcard>
-            <qcard class="card">
+            <qcard class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <svg class="icons icon__bookmark--empty" src="./assets/bookmark-shapes-svgrepo-com.svg" alt="bookmark"></svg>
+                <img class="icons icon__bookmark--empty" src="./assets/Bookmark_empty.png" alt="Bookmark Button">
                 <p>Hier steht eine Frage?</p>
                 <ul>
                     <li><button>html</button></li>
                     <li><button>css</button></li>
                     <li><button>javascript</button></li>
                 </ul>
-                <button>Answer</button>
+                <button data-js="button">Answer</button>
+                <p class ="hidden" data-js="qcard__answer">answer</p>
             </qcard>
-            <qcard class="card">
+            <qcard class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <svg class="icons icon__bookmark--empty" src="./assets/bookmark-shapes-svgrepo-com.svg" alt="bookmark"></svg>
+                <img class="icons icon__bookmark--empty" src="./assets/Bookmark_empty.png" alt="Bookmark Button">
                 <p>Hier steht eine Frage?</p>
                 <ul>
                     <li><button>html</button></li>
                     <li><button>css</button></li>
                     <li><button>javascript</button></li>
                 </ul>
-                <button>Answer</button>
+                <button data-js="button">Answer</button>
+                <p class ="hidden" data-js="qcard__answer">answer</p>
             </qcard>
     </main>
     <footer>

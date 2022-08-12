@@ -39,6 +39,7 @@ header {
     justify-content: center;
     top: 0;
     border: var(--black) 1px solid;
+    z-index: 1;
   }
   main {
     display: flex;
