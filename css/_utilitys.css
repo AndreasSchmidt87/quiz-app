@@ -1,14 +1,21 @@
 .icons {
     margin: 0;
     width: 45px;
-    height: auto;
-}
-.icon__bookmark--empty {
-    position: absolute;
-    width: 45px;
     height: 45px;
+}
+.icon__bookmark {
+    position: absolute;
+    right: 1px;
+    top: -2px;
+}
+.icon__bookmark--button {
+    position: absolute;
+    display: flex;
+    border: none;
+    background-color: white;
     right: 15px;
     top: -15px;
+    border-radius: 50%;
 }
 
 button {

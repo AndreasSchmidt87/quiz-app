@@ -12,10 +12,14 @@
     <header>
         <h1 class="page-title">Quiz App</h1>
     </header>
+    <!---------------Home---------------->
+    <section>
     <main>
             <article class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <img class="icons icon__bookmark--empty" src="./assets/Bookmark_empty.png" alt="Bookmark Button">
+                <button class="icons icon__bookmark--button" data-js="markButton"><img class="icons icon__bookmark" src="./assets/Bookmark_empty.png" data-js="bookmark" alt="Bookmark Button">
+                    <img class="icons icon__bookmark hidden"src="./assets/Bookmark_filled.png" data-js="bookmarkFilled"alt="bookmark_filled">
+                </button>
                 <p>Hier steht eine Frage?</p>
                 <ul>
                     <li><button>html</button></li>
@@ -24,11 +28,13 @@
                 </ul>
                 <button data-js="button">Answer</button>
                 <p class="hidden" data-js="qcard__answer">answer steht hier</p>
-
+                
             </article>
-            <qcard class="card" data-js="qcards">
+            <article class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <img class="icons icon__bookmark--empty" src="./assets/Bookmark_empty.png" alt="Bookmark Button">
+                <button class="icons icon__bookmark icon__bookmark--button" data-js="markButton"><img class="icons icon__bookmark" src="./assets/Bookmark_empty.png" data-js="bookmark" alt="Bookmark Button">
+                    <img class="icons icon__bookmark hidden"src="./assets/Bookmark_filled.png" data-js="bookmarkFilled"alt="bookmark_filled">
+                </button>                
                 <p>Hier steht eine Frage?</p>
                 <ul>
                     <li><button>html</button></li>
@@ -37,10 +43,12 @@
                 </ul>
                 <button data-js="button">Answer</button>
                 <p class ="hidden" data-js="qcard__answer">answer</p>
-            </qcard>
-            <qcard class="card" data-js="qcards">
+            </article>
+            <article class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <img class="icons icon__bookmark--empty" src="./assets/Bookmark_empty.png" alt="Bookmark Button">
+                <button class="icons icon__bookmark icon__bookmark--button" data-js="markButton"><img class="icons icon__bookmark" src="./assets/Bookmark_empty.png" data-js="bookmark" alt="Bookmark Button">
+                    <img class="icons icon__bookmark hidden"src="./assets/Bookmark_filled.png" data-js="bookmarkFilled"alt="bookmark_filled">
+                </button>
                 <p>Hier steht eine Frage?</p>
                 <ul>
                     <li><button>html</button></li>
@@ -49,10 +57,12 @@
                 </ul>
                 <button data-js="button">Answer</button>
                 <p class ="hidden" data-js="qcard__answer">answer</p>
-            </qcard>
-            <qcard class="card" data-js="qcards">
+            </article>
+            <article class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <img class="icons icon__bookmark--empty" src="./assets/Bookmark_empty.png" alt="Bookmark Button">
+                <button class="icons icon__bookmark icon__bookmark--button" data-js="markButton"><img class="icons icon__bookmark" src="./assets/Bookmark_empty.png" data-js="bookmark" alt="Bookmark Button">
+                    <img class="icons icon__bookmark hidden"src="./assets/Bookmark_filled.png" data-js="bookmarkFilled"alt="bookmark_filled">
+                </button>                
                 <p>Hier steht eine Frage?</p>
                 <ul>
                     <li><button>html</button></li>
@@ -61,15 +71,38 @@
                 </ul>
                 <button data-js="button">Answer</button>
                 <p class ="hidden" data-js="qcard__answer">answer</p>
+            </article>
+        </main>
+    </section>
+    <!-------------Bookmarks------------>
+    <section hidden>
+        <main>
+            <qcard class="card">
+                <img class="icons icon__bookmark--empty" src="https://cdn0.iconfinder.com/data/icons/interface-line-4/48/Bookmark_tag_web-512.png" alt="bookmark">
+                <h2>Eine Q-Card</h2>
             </qcard>
-    </main>
-    <footer>
-        <nav>
-            <a><img class="icons" src="https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-2/576/home-1024.png" alt="home"></a>
-            <a href="bookmark.html"><img class="icons" src="https://cdn0.iconfinder.com/data/icons/interface-solid-1/48/Bookmark_tag_web-1024.png" alt="bookmarks"></a>
-            <a href="profil.html"><img class="icons" src="https://cdn4.iconfinder.com/data/icons/symbol-blue-set-1/100/Untitled-2-05-512.png" alt="profil"></nav></a>
-        </nav>
-    </footer>
-    <script src="./js/index.js" defer></script>
-</body>
-</html>
+            <qcard class="card">
+                <h2>Eine Q-Card</h2>
+            </qcard>
+            <qcard class="card">
+                <h2>Eine Q-Card</h2>
+            </qcard>
+            <qcard class="card">
+                <h2>Eine Q-Card</h2>
+            </qcard>
+        </main>
+    </section>
+    <!--------------Profil-------------->
+    <section hidden>
+
+    </section>
+        <footer>
+            <nav>
+                <a><img class="icons" src="https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-2/576/home-1024.png" alt="home"></a>
+                <a href="bookmark.html"><img class="icons" src="https://cdn0.iconfinder.com/data/icons/interface-solid-1/48/Bookmark_tag_web-1024.png" alt="bookmarks"></a>
+                <a href="profil.html"><img class="icons" src="https://cdn4.iconfinder.com/data/icons/symbol-blue-set-1/100/Untitled-2-05-512.png" alt="profil"></nav></a>
+            </nav>
+        </footer>
+        <script src="./js/index.js" defer></script>
+    </body>
+    </html>
