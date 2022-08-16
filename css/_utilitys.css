@@ -1,5 +1,4 @@
 .icons {
-    margin: 0;
     width: 45px;
     height: 45px;
 }
@@ -12,10 +11,18 @@
     position: absolute;
     display: flex;
     border: none;
-    background-color: white;
+    background: white;
     right: 15px;
     top: -15px;
     border-radius: 50%;
+}
+
+.button__nav {
+    border: none;
+    background: none;
+    width: 75px;
+    height: 75px;
+    align-self: center;
 }
 
 button {
