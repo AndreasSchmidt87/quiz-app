@@ -1,0 +1,61 @@
+
+.profile__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5;
+}
+
+.profile__card--height {
+    height: unset;
+}
+
+.profile__img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 200px;
+    height: 200px;
+    border: solid black 4px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 13px 1px black;
+    margin: 20px;
+}
+
+.profile {
+   grid-column: 2/3;
+   grid-row: 1/2;
+   justify-self: left;
+   align-self: center;
+}
+.aboutMe {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: left;
+    margin-left:  20px;
+}
+.profile__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-self: left;
+
+}
+.settings__button {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.dark__button {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin: 20px;
+}
+
+.settings__button, .dark__button {
+    font-size: var(--fs-900);
+    width: 200px;
+    height: 60px;
+    background: none;
+    border: none;
+}
