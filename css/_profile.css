@@ -23,13 +23,13 @@
 .profile {
    grid-column: 2/3;
    grid-row: 1/2;
-   justify-self: left;
+   text-align: left;
    align-self: center;
 }
 .aboutMe {
     grid-column: 1/2;
     grid-row: 2/3;
-    justify-self: left;
+    text-align: left;
     margin-left:  20px;
 }
 .profile__text {
@@ -38,7 +38,7 @@
     height: 200px;
     margin-left: 20px;
     margin-right: 20px;
-    justify-self: left;
+text-align: left;
 
 }
 .settings__button {
