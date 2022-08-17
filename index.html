@@ -13,11 +13,12 @@
         <h1 class="page-title">Quiz App</h1>
     </header>
     <!---------------Home---------------->
-    <section>
+    <section data-js="homePage">
     <main>
             <article class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
-                <button class="icons icon__bookmark--button" data-js="markButton"><img class="icons icon__bookmark" src="./assets/Bookmark_empty.png" data-js="bookmark" alt="Bookmark Button">
+                <button class="icons icon__bookmark--button" data-js="markButton">
+                    <img class="icons icon__bookmark" src="./assets/Bookmark_empty.png" data-js="bookmark" alt="Bookmark Button">
                     <img class="icons icon__bookmark hidden"src="./assets/Bookmark_filled.png" data-js="bookmarkFilled"alt="bookmark_filled">
                 </button>
                 <p>Hier steht eine Frage?</p>
@@ -75,7 +76,7 @@
         </main>
     </section>
     <!-------------Bookmarks------------>
-    <section hidden>
+    <section class="hidden" data-js="bookmarkPage">
         <main>
             <qcard class="card">
                 <img class="icons icon__bookmark--empty" src="https://cdn0.iconfinder.com/data/icons/interface-line-4/48/Bookmark_tag_web-512.png" alt="bookmark">
@@ -93,16 +94,27 @@
         </main>
     </section>
     <!--------------Profil-------------->
-    <section hidden>
-
+    <section class="hidden" data-js="profilePage">
+        <main>
+            <article class="card profile__card--height">
+                <qcard class="profile__card" data-js="_profile">
+                    <img class="profile__img" src="./assets/Profile_pic.jpg" alt="profilepic">
+                    <h2 class="profile">Profil Name</h2>
+                    <p class="aboutMe">About me</p>
+                    <p class="profile__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt libero ad autem unde doloremque, voluptatibus sit, blanditiis exercitationem facere maiores aliquam quae, iure dolor esse dolorum ut qui placeat debitis.</p>
+                    <button class="settings__button " data-js="_settings">Settings</button>
+                    <button class="dark__button" data-js="_darkmode">Dark Mode</button>
+                </qcard>
+            </article>
+        </main>
     </section>
         <footer>
             <nav>
-                <a><img class="icons" src="https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-2/576/home-1024.png" alt="home"></a>
-                <a href="bookmark.html"><img class="icons" src="https://cdn0.iconfinder.com/data/icons/interface-solid-1/48/Bookmark_tag_web-1024.png" alt="bookmarks"></a>
-                <a href="profil.html"><img class="icons" src="https://cdn4.iconfinder.com/data/icons/symbol-blue-set-1/100/Untitled-2-05-512.png" alt="profil"></nav></a>
+                <button class="button__nav navigation__item--active" data-js="home__nav"><img class="icons" src="https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-2/576/home-1024.png" alt="home"></button>
+                <button class="button__nav navigation__item--active" data-js="bookmark__nav"><img class="icons" src="https://cdn0.iconfinder.com/data/icons/interface-solid-1/48/Bookmark_tag_web-1024.png" alt="bookmarks"></button>
+                <button class="button__nav navigation__item--active" data-js="profile__nav"><img class="icons" src="https://cdn4.iconfinder.com/data/icons/symbol-blue-set-1/100/Untitled-2-05-512.png" alt="profile"></button>
             </nav>
         </footer>
-        <script src="./js/index.js" defer></script>
+        
     </body>
     </html>
