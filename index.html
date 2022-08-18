@@ -13,7 +13,7 @@
         <h1 class="page-title">Quiz App</h1>
     </header>
     <!---------------Home---------------->
-    <section data-js="homePage">
+    <section data-js="homePage" hidden>
     <main>
             <article class="card" data-js="qcards">
                 <h2>Eine Q-Card</h2>
@@ -75,6 +75,20 @@
             </article>
         </main>
     </section>
+    <!--------------add Page------------>
+    <section /*class="hidden" data-js="addPage">
+        <main>
+            <form class="card">
+            <label for="addquestion" class="label__add">Add Question<br><input type="text" value="Type Question here" id="addquestion" name="addquestion" data-js="addQuestion"></label>
+            <label for="addAnswer" class="label__answer">Add Answer<br><input type="text" value="Type Answer here" name="addAnswer" id="addAnswer" data-js="addAnswer"></label>
+            <p class="label__p">Tags</p>
+            <label for="html" class="label__html" name="html">HTML <input type="checkbox" id="html" data-js="addTagHtml"></label>
+            <label for="css" class="label__css" name="css">CSS <input type="checkbox" id="css" data-js="addTagCss"></label>
+            <label for="javascript" class="label__java" name="javascript">JavaScript <input type="checkbox" id="javascript" data-js="addTagJava"></label>
+            <button class="submit" data-js="submit">Submit</button>
+            </form>
+        </main>
+    </section>
     <!-------------Bookmarks------------>
     <section class="hidden" data-js="bookmarkPage">
         <main>
@@ -93,14 +107,7 @@
             </qcard>
         </main>
     </section>
-    <!--------------add Page------------>
-    <section class="hidden" data-js="addPage">
-        <main>
-            <form class="card">
-                
-            </form>
-        </main>
-    </section>
+    
     <!--------------Profil-------------->
     <section class="hidden" data-js="profilePage">
         <main>
