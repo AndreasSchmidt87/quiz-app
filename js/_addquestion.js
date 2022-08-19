@@ -4,7 +4,7 @@ const addHtmlTags = document.querySelector('[data-js=addTagHtml]');
 const addCssTags = document.querySelector('[data-js=addTagCss]');
 const addJavaTags = document.querySelector('[data-js=addTagJava]');
 
-const elements = [addQuestions, addAnswers, addHtmlTags, addCssTags, addJavaTags];
+const elements = {addQuestions, addAnswers, addHtmlTags, addCssTags, addJavaTags};
 
 const questions = [
     {

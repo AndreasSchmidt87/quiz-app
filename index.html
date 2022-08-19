@@ -78,15 +78,17 @@
     <!--------------add Page------------>
     <section /*class="hidden" data-js="addPage">
         <main>
-            <form class="card">
+        <form class="card">
+        <fieldset>
             <label for="addquestion" class="label__add">Add Question<br><input type="text" value="Type Question here" id="addquestion" name="addquestion" data-js="addQuestion"></label>
             <label for="addAnswer" class="label__answer">Add Answer<br><input type="text" value="Type Answer here" name="addAnswer" id="addAnswer" data-js="addAnswer"></label>
-            <p class="label__p">Tags</p>
-            <label for="html" class="label__html" name="html">HTML <input type="checkbox" id="html" data-js="addTagHtml"></label>
-            <label for="css" class="label__css" name="css">CSS <input type="checkbox" id="css" data-js="addTagCss"></label>
-            <label for="javascript" class="label__java" name="javascript">JavaScript <input type="checkbox" id="javascript" data-js="addTagJava"></label>
+            <legend class="label__legend">Tags</legend>
+            <label for="html" value="HTML" class="label__html" name="html">HTML <input type="checkbox" id="html" data-js="addTagHtml"></label>
+            <label for="css" value="CSS" class="label__css" name="css">CSS <input type="checkbox" id="css" data-js="addTagCss"></label>
+            <label for="javascript" value="JavaScript" class="label__java" name="javascript">JavaScript <input type="checkbox" id="javascript" data-js="addTagJava"></label>
             <button class="submit" data-js="submit">Submit</button>
-            </form>
+        </fieldset>
+        </form>
         </main>
     </section>
     <!-------------Bookmarks------------>

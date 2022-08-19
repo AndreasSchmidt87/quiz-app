@@ -11,7 +11,7 @@ form {
     grid-column: 1/4;
     grid-row: 2/3;
 }
-.label__p {
+.label__legend {
     grid-column: 1/4;
     grid-row: 3/4;
 
